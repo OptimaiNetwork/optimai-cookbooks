@@ -1,0 +1,33 @@
+{
+  "name": "optimai-network",
+  "version": "1.0.0",
+  "description": "OptimAI Network - Decentralized AI network built on BNB Chain (opBNB and BNB Greenfield)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:opbnb-testnet": "hardhat run scripts/deploy-opbnb.js --network opbnb-testnet",
+    "deploy:opbnb-mainnet": "hardhat run scripts/deploy-opbnb.js --network opbnb-mainnet",
+    "verify": "hardhat verify"
+  },
+  "keywords": [
+    "optimai",
+    "bnb-chain",
+    "opbnb",
+    "greenfield",
+    "blockchain",
+    "ai",
+    "decentralized"
+  ],
+  "author": "OptimAI Network",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0"
+  }
+}
+

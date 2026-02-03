@@ -1,0 +1,49 @@
+{
+  "networks": {
+    "opbnb-mainnet": {
+      "chainId": 204,
+      "name": "opBNB Mainnet",
+      "rpcUrl": "https://opbnb-mainnet-rpc.bnbchain.org",
+      "explorerUrl": "https://mainnet.opbnbscan.com",
+      "primary": true,
+      "description": "Primary network for OptimAI integrity anchoring"
+    },
+    "opbnb-testnet": {
+      "chainId": 5611,
+      "name": "opBNB Testnet",
+      "rpcUrl": "https://opbnb-testnet-rpc.bnbchain.org",
+      "explorerUrl": "https://testnet.opbnbscan.com",
+      "primary": false,
+      "description": "Testing environment for opBNB"
+    },
+    "bsc-mainnet": {
+      "chainId": 56,
+      "name": "BNB Smart Chain Mainnet",
+      "rpcUrl": "https://bsc-dataseed1.bnbchain.org",
+      "explorerUrl": "https://bscscan.com",
+      "primary": false,
+      "description": "BNB Chain for token and governance contracts"
+    },
+    "bsc-testnet": {
+      "chainId": 97,
+      "name": "BNB Smart Chain Testnet",
+      "rpcUrl": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+      "explorerUrl": "https://testnet.bscscan.com",
+      "primary": false,
+      "description": "BNB Chain testnet for development"
+    }
+  },
+  "greenfield": {
+    "bucketName": "optimai-mining-proofs",
+    "endpoint": "https://gnfd-testnet-fullnode-tendermint-us.bnbchain.org",
+    "mainnetEndpoint": "https://gnfd-fullnode-tendermint-us.bnbchain.org",
+    "description": "BNB Greenfield storage for epoch manifests and proof artifacts"
+  },
+  "contracts": {
+    "opbnb-mainnet": {
+      "integrityAnchor": "0xa596E82b0e7D9F5c3e7841CF3F53F66b34D2c1D2",
+      "epochRegistry": "0x41d3CF0Ddf968FC65295efaBf4d920D6c02ADffE"
+    }
+  }
+}
+
