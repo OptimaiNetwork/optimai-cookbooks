@@ -87,7 +87,7 @@ OptimAI turns everyday browsing and interactions into ethical, privacy-preservin
 
 - **🛠 Developer Ecosystem**: Agent OS, SDK, marketplace, and tools to build, deploy, and monetize AI agents
 
-- **🤝 Strategic Backing**: Backed by Google for Startups (AI Tier) and AWS Startup Program, OptimAI leverages over $350,000 in cloud credits and advanced AI infrastructure to scale decentralized intelligence at global speed
+- **🤝 Strategic Backing**: Backed by Google for Startups (AI Tier) and AWS Web3 Startup Program, OptimAI leverages advanced AI infrastructure to scale decentralized intelligence at global speed
 
 ## Features
 
@@ -129,6 +129,54 @@ OptimAI turns everyday browsing and interactions into ethical, privacy-preservin
 - **OptimAI Search**: https://search.optimai.network/
 - **Persona Agent**: https://optimai.im/download
 
+## 📚 What's in OptimAI Cookbook?
+This repository also contains practical recipes, code examples, and step-by-step guides for:
+- **Deploying OptimAI contracts** on BNB Chain (opBNB and BSC)
+- **Interacting with OptimAI's integrity anchoring system** on opBNB
+- **Storing and retrieving proofs** from BNB Greenfield
+- **Verifying epoch commitments** trustlessly
+- **Integrating OptimAI's decentralized infrastructure** into your applications
+
+## 🍳 Available Recipes
+### Getting Started
+- [**Recipe 1: Setting Up Your Development Environment**](./recipes/01-setup-development-environment.md)
+  - Configure Hardhat for BNB Chain
+  - Set up opBNB and BSC networks
+  - Install dependencies
+
+- [**Recipe 2: Deploying Contracts to opBNB**](./recipes/02-deploy-to-opbnb.md)
+  - Deploy IntegrityAnchor contract
+  - Deploy EpochRegistry contract
+  - Verify contracts on opBNB explorer
+
+### Core Functionality
+- [**Recipe 3: Anchoring Epochs on opBNB**](./recipes/03-anchor-epochs.md)
+  - Create epoch manifests
+  - Compute Merkle roots
+  - Anchor commitments on-chain
+
+- [**Recipe 4: Storing Proofs on BNB Greenfield**](./recipes/04-greenfield-storage.md)
+  - Upload epoch manifests to Greenfield
+  - Configure bucket permissions
+  - Retrieve manifests for verification
+
+- [**Recipe 5: Trustless Verification**](./recipes/05-trustless-verification.md)
+  - Fetch manifests from Greenfield
+  - Recompute Merkle trees
+  - Verify against on-chain commitments
+
+### Integration Examples
+- [**Recipe 6: Building a Node Integration**](./recipes/06-node-integration.md)
+  - Connect nodes to OptimAI network
+  - Submit task results
+  - Earn rewards
+
+- [**Recipe 7: Querying OptimAI Network**](./recipes/07-query-network.md)
+  - Read epoch data from contracts
+  - Query Greenfield storage
+  - Monitor network activity
+
+
 ## Development
 
 ### Prerequisites
@@ -154,9 +202,7 @@ npx hardhat deploy --network opbnb-mainnet
 ```
 
 ## License
-
-[Specify your license]
+© OptimAI Network
 
 ## Contact
-
-[Add contact information or links to social media]
+Email: admin@optimai.network
